@@ -1,0 +1,6 @@
+[submodule "sdl"]
+	path = sdl
+	url = https://github.com/RomanRobot/sdl-game-master.git
+[submodule "wgpu"]
+	path = wgpu
+	url = https://github.com/RomanRobot/wgpu-game-master.git

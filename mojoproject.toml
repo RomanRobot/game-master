@@ -1,0 +1,22 @@
+[project]
+authors = ["Jehanlos <me@jehanlos.com>"]
+channels = ["conda-forge", "https://conda.modular.com/max-nightly"]
+description = "Add a short description here"
+name = "game-master"
+#platforms = ["linux-64", "osx-arm64"]
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+example = "mojo example.mojo"
+clean = "magic clean"
+
+[dependencies]
+webgpu-headers = ">=0.0.0.2023.11.27.d2fec1,<0.0.0.2023.11.28"
+max = "~=nightly"
+wgpu-native = "22.1.0.4.*"
+sdl2 = ">=2.30.7,<3"
+sdl2_gfx = ">=1.0.4,<2"
+sdl2_image = ">=2.8.2,<3"
+sdl2_mixer = ">=2.6.3,<3"
+sdl2_ttf = ">=2.22.0,<3"
