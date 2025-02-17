@@ -2,7 +2,9 @@
 
 Game engine in Mojo programming language
 
-Just SDL and WebGPU glued together atm.
+Just SDL and WebGPU glued together atm. SDL is used for SDL things like creating the window and receiving input. WebGPU is used for graphics.
+
+<img width="752" alt="A triangle with a red corner, a green corner, and a blue corner, on a pinkish background." src="https://github.com/user-attachments/assets/b0bf62e0-51be-442b-b84b-acf96828997d" />
 
 ## But why tho?
 
